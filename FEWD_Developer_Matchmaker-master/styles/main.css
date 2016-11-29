@@ -1,0 +1,153 @@
+.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+     }
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* close commented backslash hack */
+
+
+
+.main-header{
+	background-color: black;
+	font-family: merriweather;
+	color: yellow;
+	padding-top: 10px;
+	padding-left: 3%;
+	padding-left: 3%;
+    border-bottom: 5px solid yellow;
+}
+
+header h1 {
+    float: left;
+}
+
+.nav {
+	background-color:black;
+	color: white;
+	float: right;
+	font-size: 20px;
+}
+
+.footer{
+	background-color: black;
+	color: white;
+}
+
+.nav a {
+	color: white;
+	text-decoration: none;
+	font-family: 'Oswald', sans-serif;
+}
+.header-2 {
+	text-align: center;
+	background-color: #999;
+	font-style: italic;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	padding-right: 3%;
+	padding-left:3%;
+	text-underline-position;
+	margin: 0%;
+	
+}
+.main {
+	display: block;
+	background-size: cover;
+	text-align: center;
+    padding-top: 3%;
+    padding-right: 3%;
+    padding-bottom: 3%;
+    padding-left: 3%;
+    background: url(../images/coworking.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.blurb {
+    background: rgba(255,255,255,.8);
+    width: 34%;
+    margin: 0 auto;
+    padding: 4%;
+    float: right;
+    box-shadow: 0 0 5px rgba(0,0,0,.75);
+    font: inherit;
+}
+.blurb-text{
+	font-size: 20px;
+	font-style: inherit; 
+	text-align: left;
+	line-height: 1.5;
+}
+
+ .button {
+ 	display: block;
+	font-family: 'Oswald', sans-serif;
+	background-color: yellow;
+	padding: 12px;
+		padding-top: 12px;
+    	padding-right: 12px;
+    	padding-bottom: 12px;
+    	padding-left: 12px;
+    font-weight: bold;
+    box-shadow: inset 0 -3px 0 rgba(0,0,0,.2);
+    border-radius: 5px;
+ }
+
+ .title {
+ 	font-size: 1.5em;
+    font-weight: bold;
+    text-align: left;
+ }
+
+.column-1{
+	font-size: 20px;
+	font-style: inherit; 
+	text-align: left;
+	line-height: 1.5;
+	width: 34%;
+    margin: 0 auto;
+    padding: 4%;
+    float: right;
+    box-shadow: 0 0 5px rgba(0,0,0,.75);
+    font: inherit;
+}
+
+.button-2 {
+ 	.button {
+ 	display: block;
+	font-family: 'Oswald', sans-serif;
+	background-color: grey;
+	padding: 12px;
+		padding-top: 12px;
+    	padding-right: 12px;
+    	padding-bottom: 12px;
+    	padding-left: 12px;
+    font-weight: bold;
+    box-shadow: inset 0 -3px 0 rgba(0,0,0,.2);
+    border-radius: 5px;
+ }
+ .column-2{
+	font-size: 20px;
+	font-style: inherit; 
+	text-align: left;
+	line-height: 1.5;
+	width: 34%;
+    font: inherit;
+}
+   .column-3{
+	font-size: 20px;
+	font-style: inherit; 
+	text-align: left;
+	line-height: 1.5;
+	width: 34%;
+    font: inherit;
+}
